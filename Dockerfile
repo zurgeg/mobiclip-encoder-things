@@ -8,6 +8,8 @@ RUN mv megadown tools/megadown
 
 RUN chmod +x tools/megadown
 
+RUN sudo apt-get update
+
 RUN sudo apt-get install -y pv
 
 RUN ./tools/megadown https://mega.nz/folder/ZN1Q1IDQ#Jddsemx8xTCNEEnu-H8YEg/file/JIkV1IpS

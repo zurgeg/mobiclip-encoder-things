@@ -12,9 +12,9 @@ RUN sudo apt-get update
 
 RUN sudo apt-get install -y pv
 
-RUN ./tools/megadown https://mega.nz/folder/ZN1Q1IDQ -p Jddsemx8xTCNEEnu-H8YEg
+RUN ./tools/megadown https://mega.nz/folder/ZN1Q1IDQ -p Jddsemx8xTCNEEnu-H8YEg -o mobi.zip
 
-RUN unzip Wii_Middleware-libMobiclip-3_3_0-20110217.zip
+RUN unzip mobi.zip
 
 RUN apt-get install wine-stable
 

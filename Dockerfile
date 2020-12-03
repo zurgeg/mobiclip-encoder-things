@@ -12,7 +12,7 @@ RUN sudo apt-get install -y pv
 
 RUN df -h
 
-RUN megadown https://mega.nz/folder/ZN1Q1IDQ -p Jddsemx8xTCNEEnu-H8YEg -o mobi.zip
+RUN ./megadown https://mega.nz/folder/ZN1Q1IDQ -p Jddsemx8xTCNEEnu-H8YEg -o mobi.zip
 
 RUN unzip mobi.zip
 

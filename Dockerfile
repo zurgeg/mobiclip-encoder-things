@@ -4,7 +4,7 @@ RUN mkdir tools
 
 RUN wget https://github.com/tonikelope/megadown/raw/master/megadown
 
-RUN apt-get install wine-stable
+RUN sudo apt-get install wine-stable
 
 ENTRYPOINT ['wine','cmd']
 
